@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/comic-sans" rel="stylesheet">
     <title>LeaderBoard</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <main>
+        <header>
+        <h1 class="main-title">Leaderboard</h1>
+    </header>
+    <section class="main-content">
+       <article class="score-board">
+        <div class="recent-title-btn">
+            <h2 class="recent-title">Recent Scores</h2>
+            <button class="refresh-btn">Refresh</button>
+        </div>
+        <ul class="recent-list">
+            <li class ="recent-score">
+                <span class="name">Name:</span>
+                <span class="score">Score</span>
+            </li>
+            <li class ="recent-score">
+                <span class="name">Name:</span>
+                <span class="score">Score</span>
+            </li>
+            <li class ="recent-score">
+                <span class="name">Name:</span>
+                <span class="score">Score</span>
+            </li>
+            <li class ="recent-score">
+                <span class="name">Name:</span>
+                <span class="score">Score</span>
+            </li>
+            <li class ="recent-score">
+                <span class="name">Name:</span>
+                <span class="score">Score</span>
+            </li>
+        </ul>
+       </article>
+       <article class="form-add">
+        <h2 class="add-title">Add your score</h2>
+      <form class="form">
+        <input type="text" name="name" id="name" placeholder="Your name" class="form-input"/>
+        <input type="number" name="score" id="score" placeholder="Your score"
+          class="form-input" />
+        <button type="submit" class="form-btn">Submit</button>
+      </form>
+    </article>
+    </section>
+    </main>
+    
 </body>
 </html>
