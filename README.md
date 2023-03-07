@@ -116,6 +116,14 @@ Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
+Run the build using:
+```
+npm run build
+```
+Run the dev server using:
+```
+npm run start
+```
 
 
 ### Deployment
