@@ -1,27 +1,27 @@
 const path = require('path');
- const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
- module.exports = {
-   entry: {
-     index: './src/index.js',
-   },
-   devServer: {
+module.exports = {
+  entry: {
+    index: './src/index.js',
+  },
+  devServer: {
     static: './dist',
   },
-   plugins: [
-     new HtmlWebpackPlugin({
-       template: './src/index.html',
-     }),
-   ],
-   output: {
-     filename: '[name].bundle.js',
-     path: path.resolve(__dirname, 'dist'),
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
     clean: true,
-   },
-   optimization: {
+  },
+  optimization: {
     runtimeChunk: 'single',
   },
-   module: {
+  module: {
     rules: [
       {
         test: /\.css$/i,
@@ -29,4 +29,4 @@ const path = require('path');
       },
     ],
   },
- };
+};
