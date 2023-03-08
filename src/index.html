@@ -15,37 +15,18 @@
        <article class="score-board">
         <div class="recent-title-btn">
             <h2 class="recent-title">Recent Scores</h2>
-            <button class="refresh-btn">Refresh</button>
+            <button class="refresh-btn" id="refresh-btn">Refresh</button>
         </div>
-        <ul class="recent-list">
-            <li class ="recent-score">
-                <span class="name">Name:</span>
-                <span class="score">Score</span>
-            </li>
-            <li class ="recent-score">
-                <span class="name">Name:</span>
-                <span class="score">Score</span>
-            </li>
-            <li class ="recent-score">
-                <span class="name">Name:</span>
-                <span class="score">Score</span>
-            </li>
-            <li class ="recent-score">
-                <span class="name">Name:</span>
-                <span class="score">Score</span>
-            </li>
-            <li class ="recent-score">
-                <span class="name">Name:</span>
-                <span class="score">Score</span>
-            </li>
+        <ul class="recent-list" id="recent-list">
+        
         </ul>
        </article>
        <article class="form-add">
         <h2 class="add-title">Add your score</h2>
       <form class="form">
-        <input type="text" name="name" id="name" placeholder="Your name" class="form-input"/>
+        <input type="text" name="name" id="name" placeholder="Your name" class="form-input" required/>
         <input type="number" name="score" id="score" placeholder="Your score"
-          class="form-input" />
+          class="form-input" required/>
         <button type="submit" class="form-btn">Submit</button>
       </form>
     </article>
