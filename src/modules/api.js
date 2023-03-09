@@ -19,12 +19,6 @@ const uploadScore = async (user, score) => {
   return data;
 };
 
-// const getScores = async () => {
-//   const response = await fetch(url);
-//   const data = await response.json();
-//   return data;
-// };
-
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   const name = inputName.value;
