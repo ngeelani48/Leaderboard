@@ -14,20 +14,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--comic-sans);
+  background-color: rgb(242, 239, 235);
 }
 
 .main-title {
   font-family: var(--comic-sans);
-  font-size: 3.2rem;
-  text-align: center;
+  font-size: 3.9rem;
+  padding: 3%;
+  margin-left: 10%;
 }
 
 .main-content {
-  margin-top: 50px;
+  margin-top: 2rem;
   display: flex;
-  gap: 10%;
-
-  /* justify-content: space-evenly; */
+  gap: 12%;
   justify-content: center;
 }
 
@@ -40,6 +40,7 @@ body {
 
 .recent-title {
   font-family: var(--comic-sans);
+  font-size: 2.5rem;
 }
 
 .refresh-btn {
@@ -68,6 +69,7 @@ body {
 
 .add-title {
   margin-bottom: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .form {
@@ -83,4 +85,28 @@ input {
 button {
   padding: 5px;
   box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: rgb(47, 161, 255);
+}
+
+@media only screen and (max-width: 650px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .main-title {
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+    font-size: 3rem;
+  }
+
+  .form-add,
+  .score-board {
+    padding: 2%;
+  }
 }
