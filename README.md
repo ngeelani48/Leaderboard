@@ -32,7 +32,8 @@
 
 # 📖 [LeaderBoard] <a name="LeaderBoard: Project setup with WebPack"></a>
 
-**[LeaderBoard]**  website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+**[LeaderBoard]**  website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API(Application Programming Interface) service.<br>
+New game was created by using the API, details about how to use this API can be seen in this link: https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -74,7 +75,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Browser setup in your computer
+ - npm installed
+ - node installed
+ 
 ### Setup
 
 Clone this repository to your desired folder:
