@@ -61,7 +61,7 @@ New game was created by using the API, details about how to use this API can be 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Coming Soon]
+- [(https://ngeelani48.github.io/Leaderboard/dist/)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,7 @@ npm run start
 
 You can deploy this project using:
 
-(Not available for now)
+(https://ngeelani48.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
