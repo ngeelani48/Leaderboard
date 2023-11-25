@@ -33,7 +33,7 @@
 # 📖 [LeaderBoard] <a name="LeaderBoard: Project setup with WebPack"></a>
 
 **[LeaderBoard]**  website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API(Application Programming Interface) service.<br>
-New game was created by using the API, details about how to use this API can be seen in this link: https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
+The new game was created by using the API, details about how to use this API can be seen in this link: https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -67,7 +67,7 @@ New game was created by using the API, details about how to use this API can be 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-If you are a new developer then you can learn Use callbacks and promises feature from this project.And also API Services
+As a new developer, you can learn to Use the callbacks and promises feature from this project. And also API Services
 
 To get a local copy up and running, follow these steps.
 
